@@ -1,0 +1,3 @@
+[submodule "Yagiey.Lib.RegularExpressions"]
+	path = Yagiey.Lib.RegularExpressions
+	url = https://github.com/yagiey/Yagiey.Lib.RegularExpressions.git
