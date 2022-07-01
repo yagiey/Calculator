@@ -1,0 +1,28 @@
+﻿namespace Calculator
+{
+	internal enum TokenType
+	{
+		BLOCKCOMMENT,
+		LINECOMMENT,
+
+		WHITESPACES,
+
+		LITERAL_INTEGER,
+		LITERAL_REAL,
+
+		IDENTIFIER,
+
+		PUNC_SEMICOLON,
+		PUNC_EQUAL,
+		PUNC_LPAREN,
+		PUNC_RPAREN,
+
+		OP_PLUS,
+		OP_MINUS,
+		OP_MULTIPLY,
+		OP_DIVIDE,
+		OP_MOD,
+
+		KEYWORD_LET,
+	}
+}
